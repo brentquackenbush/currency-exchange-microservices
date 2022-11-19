@@ -1,21 +1,5 @@
 # Currency-Exchange Microservices project from Course
 
-## Google Cloud: Kubernetes Cluster, Microservices, Docker Images🙈 :
-
-
-<table>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/50753562/198386399-df008d87-fea5-4871-a0f7-ced36aafba08.png" alt="home" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/50753562/198386403-da483afc-bcc3-4a67-8e44-d64c6f33c179.png" alt="products" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/50753562/198386409-677ea657-bcf2-4d99-a2f8-f75972754512.png" /></td>
-  </tr>
-</table>
-
-
 ## Learn with me
 ### Some notes while going over the course: 
 
@@ -32,6 +16,23 @@
 ### [What is a load balancer? ](https://www.nginx.com/resources/glossary/load-balancing/)
 
 - Used Feign as a load balancer.
+
+## Google Cloud: Kubernetes Cluster, Microservices, Docker Images🙈 :
+
+
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/50753562/198386399-df008d87-fea5-4871-a0f7-ced36aafba08.png" alt="home" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/50753562/198386403-da483afc-bcc3-4a67-8e44-d64c6f33c179.png" alt="products" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/50753562/198386409-677ea657-bcf2-4d99-a2f8-f75972754512.png" /></td>
+  </tr>
+</table>
+
+
 
 Using a framework in springboot called sleuth, we are able to put a unique id on the request that could go across multiple microservices so we are able to track the response that gets sent back. 
 
