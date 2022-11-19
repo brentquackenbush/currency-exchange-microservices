@@ -1,21 +1,4 @@
-# currency-exchange-microservices
-Some notes while going over the course: 
-
-API Gateway-API Gateway **acts as a "front door" for applications to access data, business logic, or functionality from your backend services**
-
-Naming Server-**helping to connect your domain name with the IP address of your web server**
-
-Rabbit MQ-It gives your applications a common platform to send and receive messages, and your messages a safe place to live until received.
-
-Currency-exchange-service
-
-Currency-conversion-service
-
-OpenZipkin for Distributed Tracing (helps gather timing data needed to troubleshoot latency problems in service architectures)
-Feign is used as a load balancer between multiple applications.
-Eureka is used for a naming server to name the multiple applications
-Using a framework in springboot called sleuth, we are able to put a unique id on the request that could go across multiple microservices so we are able to track the response that gets sent back. 
-Circuit breaker basically allows a microservice to return a fallback response if the microservice that this current microservice is dependent on is slow or down. It helps reduce load.
+# Currency-Exchange Microservices project from Course
 
 ## Google Cloud: Kubernetes Cluster, Microservices, Docker Images🙈 :
 
@@ -32,3 +15,23 @@ Circuit breaker basically allows a microservice to return a fallback response if
   </tr>
 </table>
 
+
+## Learn with me
+### Some notes while going over the course: 
+
+### [What is an API gateway? ](https://www.redhat.com/en/topics/api/what-does-an-api-gateway-do#:~:text=An%20API%20gateway%20is%20an,and%20return%20the%20appropriate%20result.)
+
+### [What is a naming server? ](https://support.dnsimple.com/articles/what-is-a-nameserver/)
+- Used Eureka for a naming server
+
+### [What is Rabbit MQ? ](https://www.rabbitmq.com/)
+
+### [What is distributed tracing? ](https://www.datadoghq.com/knowledge-center/distributed-tracing/#:~:text=Distributed%20tracing%20is%20a%20method,exhibit%20high%20latency%20or%20errors.)
+- Used OpenZipkin for distributed tracing for this project.
+
+### [What is distributed tracing? ](https://www.nginx.com/resources/glossary/load-balancing/)
+
+- Feign is used as a load balancer between multiple applications.
+
+Using a framework in springboot called sleuth, we are able to put a unique id on the request that could go across multiple microservices so we are able to track the response that gets sent back. 
+Circuit breaker basically allows a microservice to return a fallback response if the microservice that this current microservice is dependent on is slow or down. It helps reduce load.
