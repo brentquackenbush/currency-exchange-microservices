@@ -29,9 +29,10 @@
 ### [What is distributed tracing? ](https://www.datadoghq.com/knowledge-center/distributed-tracing/#:~:text=Distributed%20tracing%20is%20a%20method,exhibit%20high%20latency%20or%20errors.)
 - Used OpenZipkin for distributed tracing for this project.
 
-### [What is distributed tracing? ](https://www.nginx.com/resources/glossary/load-balancing/)
+### [What is a load balancer? ](https://www.nginx.com/resources/glossary/load-balancing/)
 
-- Feign is used as a load balancer between multiple applications.
+- Used Feign as a load balancer.
 
 Using a framework in springboot called sleuth, we are able to put a unique id on the request that could go across multiple microservices so we are able to track the response that gets sent back. 
+
 Circuit breaker basically allows a microservice to return a fallback response if the microservice that this current microservice is dependent on is slow or down. It helps reduce load.
