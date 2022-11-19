@@ -8,6 +8,7 @@
     <img src="https://img.shields.io/badge/Kubernetes-E34F26?style=for-the-badge&logo=kubernetes&logoColor=white" alt="kubernetes"/>
     <img src="" alt="" />
 </p>
+
 ## Learn with me
 ### Some notes while going over the course: 
 
